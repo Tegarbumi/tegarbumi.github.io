@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title class="fst-italic">Bumi.News</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <style>
+    .jumbotron {
+      background: url('') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      margin-bottom: 30px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .lead {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .footer {
+      padding: 20px 0;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- ini navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand fst-italic ms-4" href="index.html">Bumi.News</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#carouselExampleCaptions">Headline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Kategori">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" class="p-1 rounded" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" class="p-1 rounded" href="#simple-list-item-5">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ini navbar -->
+  </header>
+  <!-- Ini custom gerak-gerak -->
+<section class="bg-light">
+<div class="container-fluid">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="jumbotron">
+      <div class="overlay">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/amd.jpg" class="d-block w-100" alt="politik">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-6 fw-bolder" style=" color:rgb(167, 47, 47); text-shadow: rgb(82, 50, 50) 0 -2px;">Seputar Teknologi</h1>
+          <p class="lead fw-bold" style="color:rgb(164, 80, 74) ; text-shadow:rgb(100, 67, 67) 0 -2px;">"Laptop Perusak Pasar dari Kubu Si Merah"</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/hd.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5  fw-bolder" style="text-shadow: rgb(226, 175, 123) 0 -1px;">Berita Politik Panas</h1>
+          <p class="lead fw-bold" style="color:rgb(226, 175, 123) ; text-shadow:white 0 -2px;">Prediksi Para Cawapres di Debat Cawapres Kedua</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/timnas.jpg" class=" w-100" alt="Sport">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-5 shadow-none  fw-bolder text-light" style="text-shadow: rgb(186, 189, 96) 0 -5px;">Berita Olahraga</h1>
+          <p class="lead fs-3 mx-auto fw-bold" style="color:rgb(189, 183, 96); text-shadow: rgb(182, 91, 91) 0 -2px;">Jepang Vs Indonesia Jadi Laga Hidup dan Mati di Grup D</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+</div>
+</div>
+  <!--bs-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div id="simple-list-item-2" class="card mb-3">
+          <img src="img/wp.jpg" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">Advan Workplus Tipis, Ciamik Dengan Performa Tinggi</h5>
+            <p class="card-text fst-italic">Advan kembali mengejutkan dengan laptop tipis berperforma tinggi, Advan Workplus. Laptop ini menggunakan prosesor Ryzen 6600H yang menawarkan performa luar biasa. Brand lokal semakin ketat bersaing dalam memperebutkan posisi sebagai laptop dengan harga dan performa terbaik.</p>
+            <a href="artikel1.html" class="btn btn-secondary">Baca Selengkapnya</a>
+          </div>
+        </div>
+        <div id="simple-list-item-3"class="card mb-3">
+          <img src="img/politik.jpeg" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">Prediksi Para Cawapres di Debat Cawapres Kedua</h5>
+            <p class="card-text fst-italic">Kali ini, para calon wakil presiden yang akan beradu gagasan. Mereka adalah Muhaimin Iskandar, Gibran Rakabuming Raka dan Mahfud MD.
+              Tema yang akan dibahas adalah Pembangunan Berkelanjutan dan Lingkungan Hidup; Sumber Daya Alam dan Energi; Pangan; Agraria; Masyarakat Adat; dan Desa.</p>
+            <a href="artikel2.html" class="btn btn-secondary">Baca Selengkapnya</a>
+          </div>
+        </div>
+
+        <div id="simple-list-item-4" class="card mb-3">
+          <img src="img/sport.jpeg" class="card-img-top" alt="News Image">
+          <div class="card-body">
+            <h5  class="card-title">Jepang Vs Indonesia Jadi Laga Hidup dan Mati di Grup D</h5>
+            <p class="card-text fst-italic">Duel Indonesia vs Jepang bakal tersaji di Al Thumama Stadium, Rabu (24/1/2023). Indonesia bakal dipastikan mendampingi Irak melaju ke 16 besar jika menang di laga ini. 
+              Mereka juga bisa membuat Negeri konoha angkat koper.</p>
+            <a href="artikel3.html" class="btn btn-secondary">Baca Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div id="Kategori"class="list-group">
+          <a href="#simple-list-item-2" class="list-group-item list-group-item-action active">Kategori Berita</a>
+          <a href="#simple-list-item-2" class="list-group-item list-group-item-action">Teknologi</a>
+          <a href="#simple-list-item-3" class="list-group-item list-group-item-action">Politik</a>
+          <a href="#simple-list-item-4" class="list-group-item list-group-item-action">Olahraga</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Ini foooter -->
+  <footer class="bg-dark text-light py-3">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+    <h3 id="simple-list-item-5">Website Bumi</h3>
+    <p class="mt-2 text-justify fst-italic">Responsive Website, cek saja di berbagai device.
+      Bila bersedia boleh sematkan pesan dan kesannya setelah anda mengunjungi website ini, tenang saja suara dan aspirasi anda akan kami dengar tidak seperti sebelah.</p>
+    <div class="col-md-6">
+      <img src="img/profile.jpg" alt="profile" style="width:150px;" class=" img-thumbnail rounded-circle
+       ms-5 mt-3 bg-dark">
+       <p class="ms-5 pt-2">Created with love by</p>
+       <p class="ms-5"><a href="https://www.instagram.com/tegarbumii/" class="text-light">Tegar Bumi Ramadhan</a></p>
+  </div>
+  </div>
+  <div class="col-md-6">
+  <h3>Berikan penilaian anda</h3>
+  <form>
+  <div class="mb-3">
+  <label for="name" class="form-label">Nama Anda</label>
+   <input type="text" class="form-control" id="name" placeholder="Gojo Satoru">
+ </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="tegarbumi123@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Pesan atau kesan</label>
+    <textarea class="form-control" id="message" rows="3" placeholder="Yang baca ganteng"></textarea>
+    </div>
+    <button type="submit" class="btn btn-outline-secondary" href="mailto:tegarbumi10@gmail.com"><a class=" text-light" href="mailto:tegarbumi10@gmail.com">Kirim</a></button>
+    </form>
+  </div>
+  </div>
+  </div>
+  <footer class="footer-dark bg-dark">
+    <div class="container d-flex ms-auto"> 
+      <span class="text-light bg-dark ms-auto">tegarbumi &copy; 2024</span>
+    </div>
+  </footer>
+  <!-- Ini footer -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
